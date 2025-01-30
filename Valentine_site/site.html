@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Your Valentine Question!</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <h1>You got pretty eyes lmao</h1>
+    <h2>Will You Be My Valentine?<br><small></small></h2>
+    
+    <div class="buttons">
+      <button id="yesBtn" onclick="handleYes()">✅ Haan, momos khilao!</button>
+      <button id="noBtn" onmouseover="panic()" onclick="handleNo()">❌ Nahi, dafa hoja</button>
+    </div>
+
+    <div id="response"></div>
+
+    <footer>
+      <p>By clicking "Yes", you agree to:<br>
+        1. Tolerate my "Arre yaar" jokes.<br>
+        2. Let me handle 100% of the bills 🤑</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
